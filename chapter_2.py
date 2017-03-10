@@ -1,5 +1,5 @@
 from nltk.corpus import stopwords
-from nltk.corpu import words
+from nltk.corpus import words
 from nltk.corpus import wordnet as wn
 
 
@@ -25,7 +25,7 @@ class TestCorpus:
         """
         return self.cop.fileids()
 
-    def copus_words(self, file_name):
+    def corpus_words(self, file_name):
         """
         returns words count
         """
